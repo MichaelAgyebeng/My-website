@@ -28,15 +28,23 @@
         <p><i class="fas fa-phone"></i> +233-545-500-456</p>
         <p><i class="fas fa-envelope"></i> agyebengmichael@gmail.com</p>
     </div>
-    
+</section>
 
+</section class="section">
     <h2>Send Me A Message</h2>
-    <form id="contactForm">
-        <input type="text" id="name" placeholder="Your Name" required>
-        <input type="email" id="email" placeholder="Your Email" required>
-        <textarea id="message" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn"action="mailto:agyebengmichael@gmail.com" method="post" enctype="text/plain">Send Message</button>
+    <form action="https://formspree.io/f/xzzrknqp" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Your Name" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Your Email" required>
+
+        <label for="message">Message</label>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
     </form>
+
 </section>
 
 <footer>
